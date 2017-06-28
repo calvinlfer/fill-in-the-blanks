@@ -1,6 +1,6 @@
 {
   "name": "fill-in-the-blanks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fills in a templated file with given inputs and produces an output file",
   "main": "./bin/fill-in-the-blanks.js",
   "bin": {

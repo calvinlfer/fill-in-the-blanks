@@ -10,7 +10,7 @@ Templated file with placeholders
 ```json
 {
     "exampleField": "{{=param.fieldA}}",
-    "sevenFold": "{{=param.fieldB}}"
+    "sevenFold": "{{=param.fieldB}}",
     "normal": "just some data"
 }
 ```
@@ -27,7 +27,7 @@ Output file
 ```
 {
     "exampleField": "valueForFieldA",
-    "sevenFold": "anotherValueForFieldB"
+    "sevenFold": "anotherValueForFieldB",
     "normal": "just some data"
 }
 ```
