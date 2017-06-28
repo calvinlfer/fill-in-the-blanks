@@ -1,0 +1,15 @@
+{
+  "name": "fill-in-the-placeholders",
+  "version": "1.0.0",
+  "description": "Fills in a templated file with given inputs and produces an output file",
+  "main": "./bin/fill-in-the-blanks.js",
+  "bin": {
+    "fill-in-the-blanks": "./bin/fill-in-the-blanks.js"
+  },
+  "author": "Calvin",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.10.0",
+    "dot": "^1.1.2"
+  }
+}
