@@ -1,5 +1,5 @@
 {
-  "name": "fill-in-the-placeholders",
+  "name": "fill-in-the-blanks",
   "version": "1.0.0",
   "description": "Fills in a templated file with given inputs and produces an output file",
   "main": "./bin/fill-in-the-blanks.js",
