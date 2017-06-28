@@ -5,8 +5,12 @@ and then produces output by filling in the placeholders with data.
 ## Installation
 `npm install -g fill-in-the-blanks`
 
+## Usage
+`fill-in-the-blanks <templateFile> <dataFile> <outputFile>`
+
 ## Example
 Templated file with placeholders
+backup-template.json
 ```json
 {
     "exampleField": "{{=param.fieldA}}",
@@ -16,6 +20,7 @@ Templated file with placeholders
 ```
 
 Data file
+data.json
 ```
 {
     "fieldA": "valueForFieldA",
@@ -23,7 +28,11 @@ Data file
 }
 ```
 
+Executing `fill-in-the-blanks backup-template.json data.json output.json`
+will produce:
+
 Output file
+output.json
 ```
 {
     "exampleField": "valueForFieldA",
