@@ -6,7 +6,11 @@
   "bin": {
     "fill-in-the-blanks": "./bin/fill-in-the-blanks.js"
   },
-  "author": "Calvin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calvinlfer/fill-in-the-blanks.git"
+  },
+  "author": "Calvin Fernandes",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.10.0",
